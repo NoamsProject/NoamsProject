@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:id="@+id/TvName"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Your User Name:" />
+
+    <EditText
+        android:id="@+id/EtName"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <TextView
+        android:id="@+id/TvPass"
+        android:layout_marginTop="60dp"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Password:" />
+
+    <EditText
+        android:id="@+id/EtPass"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:backgroundTint="@color/Green"
+        android:onClick="LogIn"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Log In" />
+
+    <Button
+        android:id="@+id/BtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:backgroundTint="@color/MoreGreen"
+        android:onClick="SignUp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Sign Up" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item0"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item1"
+        android:title="Tools"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/item11"
+                android:title="BMW Calculator"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/item12"
+                android:title="Other one"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Ask For Help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Credits"
+        android:title="Credits"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/LogOut"
+        android:title="Log Out"
+        app:showAsAction="never" />
+</menu>
